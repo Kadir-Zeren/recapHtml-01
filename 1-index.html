@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SEO acisindan onemli (165 karakter uzunlugunda bir aciklama) -->
     <meta name="description" content="Dunyanin en iyi kalemleri cw-kalem" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+
+    <!-- HTML kodunuz stillendrime dosyasi ile baglantisi -->
+    <link rel="stylesheet" href="stil.css" />
+    <style>
+      /* internal */
+      .par {
+        /* class ile erisim */
+        color: white;
+        background-color: red;
+      }
+      #container {
+        /* id ile erisim */
+        border: 2px solid yellowgreen;
+      }
+    </style>
     <title>Recap</title>
   </head>
   <body>
@@ -14,5 +30,39 @@
     <h4>Bu bir H4 etiketidir</h4>
     <h5>Bu bir H5 etiketidir</h5>
     <h6>Bu bir H6 etiketidir</h6>
+
+    <div id="container">
+      <p class="par">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
+        quo asperiores? Excepturi sunt neque saepe, ratione, dolore fugiat
+        perferendis ut voluptatem quos quo beatae porro, ipsa eligendi velit ex.
+        Dignissimos?
+      </p>
+
+      <p style="color: blueviolet; background-color: beige">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic ab
+        doloribus ducimus? Molestias nisi qui quo porro, deleniti quas!
+      </p>
+
+      <p class="par">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+        incidunt possimus perspiciatis praesentium maxime!
+      </p>
+    </div>
+
+    <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+      dignissimos tempore inventore unde? Necessitatibus totam quam, commodi
+      illo asperiores ullam ipsam! Suscipit temporibus laudantium expedita
+      <del> odit </del>
+      <mark>dolor</mark>
+      <u>saepe</u>
+      <em>consectetur</em> <strong>alias</strong> <b>explicabo.</b>
+      <br />
+      <article>Bu urunun fiyati <span style="color: red">500 TL</span></article>
+    </section>
+
+    <p>Suyun formulu H<sub>2</sub>O</p>
+    <p>Formul x<sub>2</sub>+ 3</p>
   </body>
 </html>
